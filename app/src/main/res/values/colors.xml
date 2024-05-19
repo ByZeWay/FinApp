@@ -4,4 +4,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="app_bg">#F0FFFF</color>
 
+    <color name="income">#32CD32</color>
+    <color name="expense">#B22222</color>
+    <color name="profit_loss">#1E90FF</color>
+
 </resources>

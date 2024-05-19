@@ -45,14 +45,14 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"/>
 
-<!--    &lt;!&ndash; Кнопка для отправки уведомления &ndash;&gt;-->
-<!--    <Button-->
-<!--        android:id="@+id/testReminderButton"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:text="Отправка уведомления"-->
-<!--        android:layout_toEndOf="@id/buttonReminders"-->
-<!--        android:layout_alignParentTop="true"-->
-<!--        android:layout_alignParentEnd="true"/>-->
+    <!-- Кнопка для перехода к визуализации -->
+    <Button
+        android:id="@+id/buttonVisualization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Визуализация"
+        android:layout_toEndOf="@id/buttonReminders"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
 
 </LinearLayout>

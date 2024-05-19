@@ -117,12 +117,14 @@ import com.example.testdiplom.account.AccountActivity;
 import com.example.testdiplom.category.CategoryActivity;
 import com.example.testdiplom.reminder.ReminderActivity;
 import com.example.testdiplom.transaction.TransactionActivity;
+import com.example.testdiplom.visualization.VisualizationActivity;
 
 public class MainActivity extends AppCompatActivity {
     private Button buttonAccounts; // Кнопка для перехода к счетам
     private Button buttonCategories;
     private Button buttonTransactions;
     private Button buttonReminders;
+    private Button buttonVisualization;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -177,7 +179,20 @@ public class MainActivity extends AppCompatActivity {
                 openRemindersActivity();
             }
         });
+
+        // Находим кнопку в макете
+        buttonVisualization = findViewById(R.id.buttonVisualization);
+
+        // Устанавливаем обработчик нажатия на кнопку
+        buttonVisualization.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openVisualizationActivity();
+            }
+        });
     }
+
+
 
     public void openAccountsActivity() {
         Intent intent = new Intent(this, AccountActivity.class);
@@ -196,6 +211,11 @@ public class MainActivity extends AppCompatActivity {
 
     public void openRemindersActivity() {
         Intent intent = new Intent(this, ReminderActivity.class);
+        startActivity(intent);
+    }
+
+    public void openVisualizationActivity() {
+        Intent intent = new Intent(this, VisualizationActivity.class);
         startActivity(intent);
     }
 
