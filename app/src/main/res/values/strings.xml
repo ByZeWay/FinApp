@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">FinApp by Art</string>
+
+    <string name="select_category_type">Выберите тип категории</string>
+    <string name="income">Доход</string>
+    <string name="expense">Расход</string>
+
+    <string name="select_transaction_type">Выберите тип операции</string>
+    <string name="select_account">Выберите счет</string>
+    <string name="select_category">Выберите категорию</string>
+    <string name="select_date">Выберите дату</string>
+
+    <string name="icon">Иконка</string>
+
+    <string name="select_time">Выберите время</string>
+
+</resources>

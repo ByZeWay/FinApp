@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!-- Кнопка для перехода к счетам -->
+    <Button
+        android:id="@+id/buttonAccounts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Счета"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Кнопка для перехода к категориям -->
+    <Button
+        android:id="@+id/buttonCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Категории"
+        android:layout_toEndOf="@id/buttonAccounts"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Кнопка для перехода к транзакциям -->
+    <Button
+        android:id="@+id/buttonTransactions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Транзакции"
+        android:layout_toEndOf="@id/buttonCategories"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+    <!-- Кнопка для перехода к напоминаниям -->
+    <Button
+        android:id="@+id/buttonReminders"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Напоминания"
+        android:layout_toEndOf="@id/buttonTransactions"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"/>
+
+<!--    &lt;!&ndash; Кнопка для отправки уведомления &ndash;&gt;-->
+<!--    <Button-->
+<!--        android:id="@+id/testReminderButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Отправка уведомления"-->
+<!--        android:layout_toEndOf="@id/buttonReminders"-->
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"/>-->
+
+</LinearLayout>
