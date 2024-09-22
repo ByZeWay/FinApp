@@ -50,16 +50,4 @@ MVP (Model – View – Presenter)
 ![image](https://github.com/user-attachments/assets/83a64645-0ed5-4574-9901-00ee73c837d2)
 ![image](https://github.com/user-attachments/assets/8a5a990f-5063-4caf-92e1-48ec552cf147)
 
-## Тестирование
-
-### Модульное
-![image](https://github.com/user-attachments/assets/7a0b370e-7e66-483d-922c-b3709d10da6b)
-
-### Инструментальное
-![image](https://github.com/user-attachments/assets/bee511b7-9fd9-43ce-af1e-31d6b9031266)
-
-
-
-
-
 
